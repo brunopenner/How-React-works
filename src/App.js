@@ -46,6 +46,9 @@ function Tabbed({ content }) {
       ) : (
         <DifferentContent />
       )}
+
+      {TabContent({item:content.at(0)})}
+
     </div>
   );
 }
